@@ -28,6 +28,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/hareesh-27/Array-and-strings-/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/hareesh-27/Array-and-strings-/tree/master/0485-max-consecutive-ones) |
+| [0498-diagonal-traverse](https://github.com/hareesh-27/Array-and-strings-/tree/master/0498-diagonal-traverse) |
 | [0560-subarray-sum-equals-k](https://github.com/hareesh-27/Array-and-strings-/tree/master/0560-subarray-sum-equals-k) |
 | [0658-find-k-closest-elements](https://github.com/hareesh-27/Array-and-strings-/tree/master/0658-find-k-closest-elements) |
 | [0724-find-pivot-index](https://github.com/hareesh-27/Array-and-strings-/tree/master/0724-find-pivot-index) |
@@ -118,11 +119,13 @@
 ## Simulation
 |  |
 | ------- |
+| [0498-diagonal-traverse](https://github.com/hareesh-27/Array-and-strings-/tree/master/0498-diagonal-traverse) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/hareesh-27/Array-and-strings-/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Matrix
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/hareesh-27/Array-and-strings-/tree/master/0048-rotate-image) |
+| [0498-diagonal-traverse](https://github.com/hareesh-27/Array-and-strings-/tree/master/0498-diagonal-traverse) |
 ## Sliding Window
 |  |
 | ------- |
