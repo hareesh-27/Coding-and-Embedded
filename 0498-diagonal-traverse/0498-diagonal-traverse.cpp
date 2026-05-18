@@ -1,37 +1,47 @@
 class Solution {
 public:
-
     vector<int> findDiagonalOrder(vector<vector<int>>& mat) {
 
-        int rows = mat.size();
-        int cols = mat[0].size();
+        int m = mat.size();
+        int n = mat[0].size();
+
+        int r = 0;
+        int c = 0;
 
         vector<int> ans;
 
-        // traverse all diagonals
-        for(int d = 0; d < rows + cols - 1; d++) {
+        for(int i = 0; i < m * n; i++) {
 
-            vector<int> temp;
+            ans.push_back(mat[r][c]);
 
-            // collect all elements of current diagonal
-            for(int row = 0; row < rows; row++) {
+            // even diagonal -> ↗
+            if((r + c) % 2 == 0) {
 
-                int col = d - row;
+                if(c == n - 1)
+                    r++;
 
-                // valid cell check
-                if(col >= 0 && col < cols) {
-                    temp.push_back(mat[row][col]);
+                else if(r == 0)
+                    c++;
+
+                else {
+                    r--;
+                    c++;
                 }
             }
 
-            // reverse alternate diagonals
-            if(d % 2 == 0) {
-                reverse(temp.begin(), temp.end());
-            }
+            // odd diagonal -> ↙
+            else {
 
-            // add into final answer
-            for(int x : temp) {
-                ans.push_back(x);
+                if(r == m - 1)
+                    c++;
+
+                else if(c == 0)
+                    r++;
+
+                else {
+                    r++;
+                    c--;
+                }
             }
         }
 
