@@ -48,6 +48,7 @@
 | ------- |
 | [0009-palindrome-number](https://github.com/hareesh-27/Array-and-strings-/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/hareesh-27/Array-and-strings-/tree/master/0048-rotate-image) |
+| [0069-sqrtx](https://github.com/hareesh-27/Array-and-strings-/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/hareesh-27/Array-and-strings-/tree/master/0268-missing-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/1248-count-number-of-nice-subarrays) |
@@ -156,6 +157,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/hareesh-27/Array-and-strings-/tree/master/0069-sqrtx) |
 | [0162-find-peak-element](https://github.com/hareesh-27/Array-and-strings-/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/hareesh-27/Array-and-strings-/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/hareesh-27/Array-and-strings-/tree/master/0268-missing-number) |
