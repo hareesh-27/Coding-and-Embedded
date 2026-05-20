@@ -42,6 +42,7 @@
 | [1331-rank-transform-of-an-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/1331-rank-transform-of-an-array) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/hareesh-27/Array-and-strings-/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/hareesh-27/Array-and-strings-/tree/master/1636-sort-array-by-increasing-frequency) |
+| [1901-find-a-peak-element-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/1901-find-a-peak-element-ii) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/hareesh-27/Array-and-strings-/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Math
 |  |
@@ -127,6 +128,7 @@
 | ------- |
 | [0048-rotate-image](https://github.com/hareesh-27/Array-and-strings-/tree/master/0048-rotate-image) |
 | [0498-diagonal-traverse](https://github.com/hareesh-27/Array-and-strings-/tree/master/0498-diagonal-traverse) |
+| [1901-find-a-peak-element-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/1901-find-a-peak-element-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -164,6 +166,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/0349-intersection-of-two-arrays) |
 | [0658-find-k-closest-elements](https://github.com/hareesh-27/Array-and-strings-/tree/master/0658-find-k-closest-elements) |
 | [1004-max-consecutive-ones-iii](https://github.com/hareesh-27/Array-and-strings-/tree/master/1004-max-consecutive-ones-iii) |
+| [1901-find-a-peak-element-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/1901-find-a-peak-element-ii) |
 ## Union-Find
 |  |
 | ------- |
