@@ -48,6 +48,7 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/hareesh-27/Array-and-strings-/tree/master/0009-palindrome-number) |
+| [0029-divide-two-integers](https://github.com/hareesh-27/Array-and-strings-/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/hareesh-27/Array-and-strings-/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/hareesh-27/Array-and-strings-/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0189-rotate-array) |
@@ -178,6 +179,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/hareesh-27/Array-and-strings-/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/hareesh-27/Array-and-strings-/tree/master/0078-subsets) |
 | [0137-single-number-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0137-single-number-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/hareesh-27/Array-and-strings-/tree/master/0222-count-complete-tree-nodes) |
