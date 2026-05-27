@@ -22,6 +22,7 @@
 | [0189-rotate-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0229-majority-element-ii) |
+| [0240-search-a-2d-matrix-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/hareesh-27/Array-and-strings-/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/hareesh-27/Array-and-strings-/tree/master/0283-move-zeroes) |
@@ -107,6 +108,7 @@
 | [0053-maximum-subarray](https://github.com/hareesh-27/Array-and-strings-/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/hareesh-27/Array-and-strings-/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0215-kth-largest-element-in-an-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0240-search-a-2d-matrix-ii) |
 ## Counting
 |  |
 | ------- |
@@ -128,6 +130,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/hareesh-27/Array-and-strings-/tree/master/0048-rotate-image) |
+| [0240-search-a-2d-matrix-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0240-search-a-2d-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/hareesh-27/Array-and-strings-/tree/master/0498-diagonal-traverse) |
 | [1901-find-a-peak-element-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/1901-find-a-peak-element-ii) |
 ## Sliding Window
@@ -163,6 +166,7 @@
 | [0069-sqrtx](https://github.com/hareesh-27/Array-and-strings-/tree/master/0069-sqrtx) |
 | [0162-find-peak-element](https://github.com/hareesh-27/Array-and-strings-/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/hareesh-27/Array-and-strings-/tree/master/0222-count-complete-tree-nodes) |
+| [0240-search-a-2d-matrix-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/hareesh-27/Array-and-strings-/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/0349-intersection-of-two-arrays) |
 | [0658-find-k-closest-elements](https://github.com/hareesh-27/Array-and-strings-/tree/master/0658-find-k-closest-elements) |
