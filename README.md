@@ -53,6 +53,7 @@
 | [0048-rotate-image](https://github.com/hareesh-27/Array-and-strings-/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/hareesh-27/Array-and-strings-/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/hareesh-27/Array-and-strings-/tree/master/0189-rotate-array) |
+| [0227-basic-calculator-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0227-basic-calculator-ii) |
 | [0268-missing-number](https://github.com/hareesh-27/Array-and-strings-/tree/master/0268-missing-number) |
 | [1248-count-number-of-nice-subarrays](https://github.com/hareesh-27/Array-and-strings-/tree/master/1248-count-number-of-nice-subarrays) |
 ## Two Pointers
@@ -158,6 +159,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/hareesh-27/Array-and-strings-/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0227-basic-calculator-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0227-basic-calculator-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/hareesh-27/Array-and-strings-/tree/master/0424-longest-repeating-character-replacement) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/hareesh-27/Array-and-strings-/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Binary Search
@@ -212,6 +214,7 @@
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/hareesh-27/Array-and-strings-/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/hareesh-27/Array-and-strings-/tree/master/0144-binary-tree-preorder-traversal) |
+| [0227-basic-calculator-ii](https://github.com/hareesh-27/Array-and-strings-/tree/master/0227-basic-calculator-ii) |
 | [0234-palindrome-linked-list](https://github.com/hareesh-27/Array-and-strings-/tree/master/0234-palindrome-linked-list) |
 ## Tree
 |  |
