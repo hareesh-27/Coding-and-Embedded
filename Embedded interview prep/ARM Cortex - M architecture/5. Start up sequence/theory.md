@@ -205,3 +205,5 @@ Application Execution Begins
 ## Summary
 
 The startup sequence of the ARM Cortex-M4 begins when the processor reads the first two entries of the Vector Table. The first entry provides the initial Stack Pointer value, while the second entry provides the address of the Reset Handler. The Reset Handler initializes memory and hardware resources before calling `main()`. Only after this initialization process is complete does the application begin normal execution.
+
+Data is in flah after compiling and we dont want data to be ther we want in sram
