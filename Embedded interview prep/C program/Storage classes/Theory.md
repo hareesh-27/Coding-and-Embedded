@@ -53,6 +53,23 @@ int main() {
     return 0;
 }
 ```
+register` is only a request to the compiler, not a command.
+
+The compiler may or may not place it in a CPU register.
+
+Also:
+
+```c
+register int x;
+```
+
+You cannot do:
+
+```c
+&x
+
+The reason is because register variables may not have a memory address.
+```
 
 ---
 
