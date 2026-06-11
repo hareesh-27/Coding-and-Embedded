@@ -88,7 +88,25 @@ int main()
     return 0;
 }
 ```
+After storing int:
 
+```text
+d.i = 10
+```
+
+The union memory contains the integer 10.
+
+After storing float:
+
+```text
+d.f = 5.500000
+```
+
+The same memory is overwritten with the float 5.5.
+
+```text
+d.i = 1085276160
+```
 ## Question 1
 
 ```c

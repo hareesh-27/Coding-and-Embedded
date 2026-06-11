@@ -113,3 +113,102 @@ volatile int *volatile x = 0;
 - Value at that address can also change anytime
 
 <img width="1721" height="1305" alt="image" src="https://github.com/user-attachments/assets/f52f4d33-dc28-4237-b349-2abf1088fc7e" />
+
+## 1. `volatile int *x`
+
+Equivalent to:
+
+```c
+int volatile *x;
+```
+
+Meaning:
+
+- Data is volatile
+- Pointer is normal
+
+Example:
+
+```c
+volatile int sensor_value = 0;
+volatile int *x = &sensor_value;
+```
+
+When you do:
+
+```c
+*x
+```
+
+the compiler must read the data from memory every time.
+
+But:
+
+```c
+x = another_address;
+```
+
+can still be optimized normally because the pointer itself is not volatile.
+
+---
+
+## 2. `int * volatile x`
+
+Meaning:
+
+- Data is normal
+- Pointer is volatile
+
+Example:
+
+```c
+int data = 10;
+int * volatile x = &data;
+```
+
+Now:
+
+```c
+x
+```
+
+must be fetched every time because the pointer value itself may change unexpectedly.
+
+But:
+
+```c
+*x
+```
+
+is ordinary data.
+
+This is less common but can occur if hardware or special code updates the pointer value itself.
+
+---
+
+## 3. `volatile int * volatile x`
+
+Meaning:
+
+- Data is volatile
+- Pointer is volatile
+
+Example:
+
+```c
+volatile int sensor = 0;
+volatile int * volatile x = &sensor;
+```
+
+Now:
+
+- Pointer value may change unexpectedly
+- Data at pointed location may change unexpectedly
+
+Compiler must treat both carefully.
+
+---
+
+## Important Point
+
+The compiler must perform an actual read/write whenever the volatile object is accessed and cannot assume the value remains unchanged between accesses.
