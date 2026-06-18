@@ -1,21 +1,31 @@
-# UART Driver Development
+## Code explained
 
-<table>
-<tr>
-<td width="65%">
+```c
+#include <stdint.h>
+#include "stm32f4xx.h"
+```
 
-First we understand that we are working on **USART2** present in the **APB1 peripheral**.
+These 2 are header files
 
-USART2 is connected to the APB1 bus. Before configuring USART2, we must enable its clock through RCC.
+- stdint provides uint32_t, uint16_t. Basically uints
+- stm32f4xx.h is the CMSIS file downloaded from st.com which is provided by ST/CMSIS. It contains register structures, peripheral base addresses, bit definitions, and macros like USART2 and GPIOA, allowing us to access registers using the -> operator.
 
-</td>
+---
 
-<td width="35%">
+Next we will come to **main function** where we **initialise uart**
 
-<img src="https://github.com/user-attachments/assets/ea70410c-225e-4900-a395-3714cb3b2686" width="250">
+So the first line inside main function is initialising uart -
 
-</td>
-</tr>
-</table>
+```c
+uart2_tx_init(void);
+```
 
-## Step 1: Enable GPIO Clock
+---
+
+## **uart2_tx_init(void)**
+
+There is a step by step process to make uart_tx work succesfully.
+
+First we understand that we are working on USART2 present in APB1 peripheral.
+
+<img width="358" height="570" alt="image" src="https://github.com/user-attachments/assets/ea70410c-225e-4900-a395-3714cb3b2686" />
