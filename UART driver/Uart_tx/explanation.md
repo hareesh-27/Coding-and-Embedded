@@ -24,8 +24,11 @@ uart2_tx_init(void);
 
 ## **uart2_tx_init(void)**
 
-There is a step by step process to make uart_tx work succesfully.
+There is a step by step process to make uart_tx work succesfully. Also remember that we are operating in **Asynchronous mode.** So our projectbehaves like UART
 
-First we understand that we are working on USART2 present in APB1 peripheral.
+  - First we understand that we are working on USART2 present in APB1 peripheral.
 
 <img width="358" height="570" alt="image" src="https://github.com/user-attachments/assets/ea70410c-225e-4900-a395-3714cb3b2686" />
+
+
+
