@@ -13,34 +13,15 @@ These 2 are header files
 ---
 
 Next we will come to **main function** where we **initialise uart**
-
 So the first line inside main function is initialising uart -
-
 ```c
 uart2_tx_init(void);
 ```
 
----
-
 ## **uart2_tx_init(void)**
 
-<table>
-<tr>
-<td width="65%">
+There is a step by step process to make uart_tx work succesfully. Also we need to rember that we are operating in **Asynchronous mode**, so it behaves lik UART
 
-First we understand that we are working on **USART2** present in the **APB1 peripheral**.
+First we understand that we are working on USART2 present in APB1 peripheral.
 
-USART2 is connected to the APB1 bus, so before configuring USART2 we must enable its clock using RCC.
-
-</td>
-
-<td width="35%">
-
-<img src="https://github.com/user-attachments/assets/ea70410c-225e-4900-a395-3714cb3b2686" width="250">
-
-</td>
-</tr>
-</table>
-
-
-
+<img width="358" height="570" alt="image" src="https://github.com/user-attachments/assets/ea70410c-225e-4900-a395-3714cb3b2686" />
