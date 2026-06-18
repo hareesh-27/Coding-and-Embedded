@@ -1,10 +1,12 @@
+# UART Driver Development
+
 <table>
 <tr>
 <td width="65%">
 
 First we understand that we are working on **USART2** present in the **APB1 peripheral**.
 
-USART2 is connected to the APB1 bus, so before configuring USART2 we must enable its clock using RCC.
+USART2 is connected to the APB1 bus. Before configuring USART2, we must enable its clock through RCC.
 
 </td>
 
@@ -15,3 +17,5 @@ USART2 is connected to the APB1 bus, so before configuring USART2 we must enable
 </td>
 </tr>
 </table>
+
+## Step 1: Enable GPIO Clock
